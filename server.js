@@ -2,7 +2,31 @@ const express = require("express");
 const restaurantRouter = require("./routes/restaurant.router");
 const cors = require("cors");
 const sql = require("./models/db");
+const db = require("./models/index")
+const role = db.role;
+//dev mode
+db.sequelize.sync({force:true}).then(() => {
+  console.log('Drop and resync DB');
+  initial();
+})
+
+function initial() {
+  role.create({
+    id:1,
+    name:'user',
+  });
+  role.create({
+    id:2,
+    name:'moderator',
+  });
+  role.create({
+    id:3,
+    name:'admin',
+  });
+}
+
 const PORT = 5000;
+
 
 //creat server
 const app = express();
