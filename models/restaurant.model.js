@@ -31,12 +31,12 @@ const Restaurant = sequelize.define("restaurant", {
   },
 });
 
-Restaurant.sync({ force: true })
-  .then(() => {
-    console.log("Tabel create r already exists");
-  })
-  .catch((error) => {
-    console.log("error creating tabel:", error);
-  });
+// Restaurant.sync({ force: false })
+//   .then(() => {
+//     console.log("Tabel create r already exists");
+//   })
+//   .catch((error) => {
+//     console.log("error creating tabel:", error);
+//   });
 
 module.exports = Restaurant;

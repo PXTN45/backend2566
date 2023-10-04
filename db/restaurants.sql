@@ -39,11 +39,11 @@ CREATE TABLE `restaurants` (
 --
 
 INSERT INTO `restaurants` (`id`, `name`, `type`, `img`) VALUES
-(1, 'McDonald\'s (แมคโดนัลด์) - ราชดำเนิน', 'แฮมเบอร์เกอร์, ไก่ทอด, ฟาสต์ฟู้ด', 'https://d1sag4ddilekf6.cloudfront.net/compressed_w…75f84a0fb1b2b58e4320be3f_1688317413588921068.webp\r\n'),
-(2, 'ChaTraMue (ชาตรามือ) - เยาวราช', 'ชา กาแฟ, ชานมไข่มุก', 'https://d1sag4ddilekf6.cloudfront.net/compressed_w…fa0b4bf79d277fe065250beb_1655367796276958677.webp'),
-(3, 'รสเด็ดอร่อยตามสั่ง - บางซื่อ', 'Coupon, อาหารทะเล, อาหารตามสั่ง, ยำ', 'https://d1sag4ddilekf6.cloudfront.net/compressed_w…83504e22a8b1f5a2ea5851e1_1623751631792385157.webp'),
-(4, 'ตี๋เปิ้ลก่วยเตี๋ยวต้มยำสุโขทัย - สวนมะลิ', 'Coupon, อาหารเส้น', 'https://d1sag4ddilekf6.cloudfront.net/compressed_w…07c94f029b7512bcfc2315e3_1597897820128291082.webp'),
-(5, 'ไก่ทอดนายจรัล - ถนนจรัญสนิทวงศ์ 5', 'ไก่ทอด', 'https://d1sag4ddilekf6.cloudfront.net/compressed_w…33d44b359a9550585f186407_1664116825269530916.webp');
+(1, 'McDonald\'s (แมคโดนัลด์) - ราชดำเนิน', 'แฮมเบอร์เกอร์, ไก่ทอด, ฟาสต์ฟู้ด', 'https://static.thairath.co.th/media/Dtbezn3nNUxytg04aiLW83aVTf4sL0FJbWhPKPy9tjRWWn.webp'),
+(2, 'ChaTraMue (ชาตรามือ) - เยาวราช', 'ชา กาแฟ, ชานมไข่มุก', 'https://s.isanook.com/he/0/ud/4/23241/white-tea.jpg'),
+(3, 'รสเด็ดอร่อยตามสั่ง - บางซื่อ', 'Coupon, อาหารทะเล, อาหารตามสั่ง, ยำ', 'https://promotions.co.th/wp-content/uploads/2022/08/grilled-seafood.jpg'),
+(4, 'ตี๋เปิ้ลก่วยเตี๋ยวต้มยำสุโขทัย - สวนมะลิ', 'Coupon, อาหารเส้น', 'https://img.wongnai.com/p/1920x0/2019/01/10/969acc566a18414b9f20549d7309b9c0.jpg'),
+(5, 'ไก่ทอดนายจรัล - ถนนจรัญสนิทวงศ์ 5', 'ไก่ทอด', 'https://s.isanook.com/he/0/ud/4/23241/white-tea.jpg');
 
 --
 -- Indexes for dumped tables
