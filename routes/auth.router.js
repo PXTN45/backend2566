@@ -1,5 +1,6 @@
 const { verifySignUp } = require("../middleware");
 const controller = require("../controllers/auth.controller");
+const { verifyToken } = require("../middleware/auth.jwt");
 module.exports = function (app) {
   app.use(function (req, res, next) {
     res.header(
@@ -13,4 +14,9 @@ module.exports = function (app) {
     [verifySignUp.checkDuplicateUserOrEmail, verifySignUp.checkRolesExisted],
     controller.signup
   );
+
+  app.post(
+    "/api/auth/signin",
+    controller.signin
+  )
 };
